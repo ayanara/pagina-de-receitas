@@ -23,7 +23,7 @@ body {
     padding: 24px;
     max-width: 800px;
     border-radius: 10px;
-    margin: 48px auto;
+    margin: 48px auto 28PX;
 }
 
 #main {
@@ -59,4 +59,15 @@ ul {
     margin-top: 12px;
     margin-left: 24px;
     line-height: 150%;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 48px;
+    color: #291b1a;
+    
+}
+
+a {
+  text-decoration: none;
 }
