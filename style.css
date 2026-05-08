@@ -10,34 +10,32 @@
 }
 
 body {
-    
-    background-image: url(/assets/bg-image.jpg);
+    background-image: url("./assets/bg-image.jpg");
     background-size: cover;
-    
 }
 
 #page {
     background-color: #F0E8C2;
     box-sizing: border-box;
-    border-radius: 24PX;
     padding: 24px;
     max-width: 800px;
     border-radius: 10px;
-    margin: 48px auto 28PX;
+    margin: 48px auto 28px;
 }
 
-#main {
+main {
     padding: 24px;
 }
 
 section {
-    margin-top: 24px;}
+    margin-top: 24px;
+}
 
- p {
+p {
     margin-top: 12px;
 }
 
-#img {
+#main-image {
     width: 100%;
     height: auto;
     border-radius: 10px;
@@ -53,6 +51,7 @@ h1 {
 h2 {
     font-size: 24px;
     color: #291b1a;
+    margin-bottom: 4px;
 }
 
 ul {
@@ -65,9 +64,9 @@ footer {
     text-align: center;
     padding-bottom: 48px;
     color: #291b1a;
-    
 }
 
 a {
-  text-decoration: none;
+    color: #291b1a;
+    text-decoration: none;
 }
